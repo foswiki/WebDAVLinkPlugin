@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Author: Crawford Currie, C-Dot Consultants
+Copyright (C) 2009 C-Dot Consultants L<http://c-dot.co.uk>
+Version: $Rev: 1155 $
+-->
+<?xml-stylesheet href="chrome://webdavlink/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://webdavlink/locale/webdavlink.dtd">
+<overlay id="webdavlink-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="webdavlink-strings" src="chrome://webdavlink/locale/webdavlink.properties"/>
+  </stringbundleset>
+</overlay>

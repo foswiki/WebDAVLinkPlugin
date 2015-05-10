@@ -1,0 +1,43 @@
+%TMPL:INCLUDE{"attachtables"}%
+
+%{ These templates define the tables used to display attachments. }%
+
+%TMPL:DEF{"commonattachtableattributes"}%valign="middle" dataalign="center,left,left,left,left,left,left,left" datavalign="top" headercolor="#0066cc" databg="#ffffff" headerbg="#ffffff" headerbgsorted="#eeeeee" databgsorted="#f5f5f5" tablerules="rows" %TMPL:END%
+
+%{ Footer for topic attachment table }%
+%TMPL:DEF{ATTACH:files:footer:script}%
+<literal>
+  <!--[if IE]>
+  <![endif]-->
+  <div class="webdav-bottom-outer">
+    <div class="webdav-bottom-inner">
+      <span id="webdav-folder">
+        <strong>%MAKETEXT{"Open attachments folder"}%</strong>
+      </span>
+    </div>
+    <div id="webdav-folderurl" class="foswikiHidden">%WEBDAVFOLDERURL%/%WEB%/%TOPIC%_files</div>
+  </div>
+</literal>
+%TMPL:END%
+
+%{ A basic row definition, for attachment table and attach screen }%
+%{ Use %A_URL% instead of %PUBURLPATH%/%WEB%/%TOPIC%/%A_FILE% to get a viewfile link }%
+%TMPL:DEF{ATTACH:files:row(basic)}%| %A_ICON%<span class="foswikiHidden">%A_EXT%</span> |%{
+--- File view link ---
+}% <a href="%ATTACHURLPATH%/%ENCODE{%A_FILE%}%"><noautolink>%A_FILE%</noautolink></a> |%{
+--- Edit button ---
+}% <a class='webdav-entry' href='%WEBDAVFOLDERURL%/%WEB%/%TOPIC%_files/%ENCODE{%A_FILE%}%' title='%MAKETEXT{"Edit attachment"}%' rel='follow'><img src='%ICONURLPATH{"pencil"}%' border='0' alt='%MAKETEXT{"Edit attachment"}%' style='border:none;' /></a>%{
+--- Update button ---
+}%&nbsp;<a href='%SCRIPTURLPATH{"attach"}%/%WEB%/%TOPIC%?filename=%ENCODE{"%A_FILE%"}%;revInfo=1' title='%MAKETEXT{"Update attachment"}%' rel='follow'><img src='%ICONURLPATH{"refreshtopic"}%' border='0' alt='%MAKETEXT{"Update"}%' style='border:none;' /></a>%{
+--- Move button ---
+}%&nbsp;<a href='%SCRIPTURLPATH{"rename"}%/%WEB%/%TOPIC%?template=moveattachment&attachment=%ENCODE{"%A_FILE%"}%' title='%MAKETEXT{"Move"}%' rel='nofollow'><img src='%ICONURLPATH{"move"}%' border='0' alt='%MAKETEXT{"Move attachment"}%' style='border:none;' /></a>%{
+--- Delete button ---
+}%&nbsp;<a href='%SCRIPTURLPATH{"rename"}%/%WEB%/%TOPIC%?newweb=%TRASHWEB%;newtopic=TrashAttachment;template=renameattachmentdelete;attachment=%ENCODE{"%A_FILE%"}%' title='%MAKETEXT{"Delete"}%' rel='nofollow'><img src='%ICONURLPATH{"remove"}%' border='0' alt='%MAKETEXT{"Delete attachment"}%' style='border:none;' /></a> |%{
+--- Size ---
+}% %A_SIZE% |%{
+--- Date ---
+}%<span class="foswikiNoBreak">%A_DATE%</span> |%{
+--- User ---
+}% %A_USER%  |%{
+--- Comment ---
+}% %A_COMMENT%  |%TMPL:END%

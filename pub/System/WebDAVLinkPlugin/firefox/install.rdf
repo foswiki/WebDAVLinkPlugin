@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>webdavlink@wikiring.com</em:id>
+    <em:name>WebDAVLink</em:name>
+    <em:version>1.5</em:version>
+    <em:creator>Crawford Currie</em:creator>
+    <em:iconURL>chrome://webdavlink/skin/icon.png</em:iconURL>
+    <em:homepageURL>http://wikiring.com/Extensions/WebDAVLinkPlugin</em:homepageURL>
+    <em:contributor>Crawford Currie</em:contributor>
+    <em:description>Open webdav documents using native application</em:description>
+    <em:optionsURL>chrome://webdavlink/content/options.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

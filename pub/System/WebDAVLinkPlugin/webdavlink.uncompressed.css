@@ -1,0 +1,17 @@
+a#webdav-link {
+    float: right;
+}
+a.webdav-entry {
+}
+div.webdav-bottom-outer {
+    margin: 5px;
+}
+div.webdav-bottom-inner {
+    float: right;
+}
+span#webdav-folder {
+    color: #0066CC;
+    cursor: hand;
+    cursor: pointer;
+    behavior: url('#default#httpFolder');
+}

@@ -1,0 +1,14 @@
+<!ENTITY prefwindow.title "WebDAVLink preferences">
+<!ENTITY prefwindow.overview "The table lists the applications used to open different files found on WebDAV. Each entry in the table has a Javascript regular expression that matches the file name, and the absolute file path on your computer to the application that you want to use to open this type of file.">
+<!ENTITY prefwindow.addpattern "Add a new pattern">
+<!ENTITY prefwindow.descpattern "Enter a Javascript (Perl compatible) regular expression that will match a WebDAV URL - for example, use \.docx$ to match .docx at the end of the URL. See http://www.javascriptkit.com/javatutors/redev2.shtml for help writing regular expressions. The regex may not contain the characters = or ;">
+<!ENTITY prefwindow.pattern "Pattern">
+<!ENTITY prefwindow.descpath "Enter the absolute file path on your computer to the application that you want to use to open this type of file. For example, C:\Program Files\Microsoft Office\Office12\WINWORD.EXE. The URL will be passed as the only parameter to this program.">
+<!ENTITY prefwindow.thispattern "this pattern">
+<!ENTITY prefwindow.removepattern "Remove selected pattern">
+<!ENTITY prefwindow.remove "Remove">
+<!ENTITY prefwindow.theselpatt "the selected pattern">
+<!ENTITY prefwindow.app "Application">
+<!ENTITY prefwindow.add "Add">
+<!ENTITY prefwindow.debug "Enable debug messages">
+

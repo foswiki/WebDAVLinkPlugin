@@ -1,0 +1,4 @@
+content	webdavlink	content/ contentaccessible=yes
+locale	webdavlink	en-US	locale/en-US/
+skin	webdavlink	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://webdavlink/content/firefoxOverlay.xul
