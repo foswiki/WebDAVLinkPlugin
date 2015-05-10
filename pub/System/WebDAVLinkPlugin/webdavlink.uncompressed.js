@@ -1,6 +1,6 @@
 (function($) {
     $.fn.extend({
-	webdav_release: '%$TRACKINGCODE%',
+	webdav_release: '%$VERSION%',
 	webdav_open: function(event) {
 	    // Invoked when an anchor tag that matches the requirements for
 	    // a webdav link is clicked. 

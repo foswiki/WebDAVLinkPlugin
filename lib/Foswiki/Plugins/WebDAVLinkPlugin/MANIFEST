@@ -1,4 +1,5 @@
 # Release manifest for WebDAVLinkPlugin
+!noci
 data/System/WebDAVLinkPlugin.txt 0644 Documentation
 lib/Foswiki/Plugins/WebDAVLinkPlugin.pm 0644 Perl module
 lib/Foswiki/Plugins/WebDAVLinkPlugin/Config.spec 0444 Configuration parameters

@@ -11,7 +11,7 @@ use Foswiki       ();
 use Foswiki::Func ();
 
 our $VERSION = '1.7.0';
-our $RELEASE = '%$TRACKINGCODE%';
+our $RELEASE = '10 May 2015';
 our $SHORTDESCRIPTION =
   'Automatically open links to !WebDAV resources in local applications';
 our $NO_PREFS_IN_TOPIC = 1;
@@ -82,7 +82,7 @@ sub _WEBDAVFOLDERURL {
 1;
 __END__
 
-Copyright (C) 2009-2012 WikiRing http://wikiring.com
+Copyright (C) 2009-2015 WikiRing http://wikiring.com
 
 This program is licensed to you under the terms of the GNU General
 Public License, version 2. It is distributed in the hope that it will
@@ -90,13 +90,5 @@ be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 As per the GPL, removal of this notice is prohibited.
-
-This software cost a lot in blood, sweat and tears to develop, and
-you are respectfully requested not to distribute it without purchasing
-support from the authors (available from webdav@c-dot.co.uk). By working
-with us you not only gain direct access to the support of some of the
-most experienced Foswiki developers working on the project, but you are
-also helping to make the further development of open-source Foswiki
-possible. 
 
 Author: Crawford Currie http://c-dot.co.uk
