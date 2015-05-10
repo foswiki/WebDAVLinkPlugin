@@ -104,38 +104,28 @@ You can mount Web<nop>DAV folders via this URL: %WEBDAVFOLDERURL%
 ---++++ Mount Web<nop>DAV as Network Drive via Transmit
 <img src="%ATTACHURLPATH%/MacOS-Transmit-mount.png" alt="WebDAV-trusted-sites1.png" />
 
----++ License
-
-This software is released under the GNU Public License, version 2.
-
----++ Info
-Another great Foswiki extension from the <a style="text-decoration:none" href="http://wikiring.com"><img src="%ATTACHURLPATH%/wikiringlogo20x20.png" alt="" /> *WikiRing* </a> - working together to improve your wiki experience!
-
-|  Author(s): | Crawford Currie http://c-dot.co.uk |
-|  Copyright: | &copy; 2009 - %DATE{"$year"}% Crawford Currie http://c-dot.co.uk |
-|  License: | [[http://www.gnu.org/licenses/old-licenses/gpl-2.0.html][GPL2 (Gnu General Public License v2)]] |
-|  Release: | %$RELEASE% |
-|  Version: | %$VERSION% |
-|  Change History: | <!-- versions below in reverse order -->&nbsp; |
-|  1.7 | Minor fixes, tested against FF 24.0 |
-|  1.6 | Doc tweaks, tested on FF 5.0 |
-|  1.5 | Corrected code to work for SSL links and without extra browser setup |
-|  1.4 | Added capability to open any matching link - Michael Daum |
-|  1.3 | documentation fixups - Sven Dowideit |
-|  1.2 | Tested for FF 3.6, added debug features |
-|  1.1 | Initial release |
-|  Dependencies: | %$DEPENDENCIES% |
-|  Home page: | http://foswiki.org/bin/view/Extensions/WebDAVLinkPlugin |
-|  Support: | http://foswiki.org/bin/view/Support/WebDAVLinkPlugin |
-
 <!-- Do _not_ attempt to edit this topic; it is auto-generated. -->
 
-%META:FILEATTACHMENT{name="MacOS-Transmit-connect.png" attachment="MacOS-Transmit-connect.png" attr="H" date="1281482498" version="1"}%
-%META:FILEATTACHMENT{name="MacOS-Transmit-filelist.png" attachment="MacOS-Transmit-filelist.png" attr="H" date="1281482498" version="1"}%
-%META:FILEATTACHMENT{name="MacOS-Transmit-mount.png" attachment="MacOS-Transmit-mount.png" attr="H" date="1281482498" version="1"}%
-%META:FILEATTACHMENT{name="WebDAV-custom-level.png" attachment="WebDAV-custom-level.png" attr="H" date="1281482498" version="1"}%
-%META:FILEATTACHMENT{name="WebDAV-security-settings.png" attachment="WebDAV-security-settings.png" attr="H" date="1281482498" version="1"}%
-%META:FILEATTACHMENT{name="WebDAV-trusted-sites1.png" attachment="WebDAV-trusted-sites1.png" attr="H" date="1281482498" version="1"}%
-%META:FILEATTACHMENT{name="WebDAV-trusted-sites2.png" attachment="WebDAV-trusted-sites2.png" attr="H" date="1281482498" version="1"}%
-%META:FILEATTACHMENT{name="Example.odt" attachment="Example.odt" attr="" comment="" date="1381061937" size="11347" version="3"}%
-%META:FILEATTACHMENT{name="Example.docx" attachment="Example.docx" date="1381060431" path="Example.docx" version="1"}%
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="Author" attributes="" title="Author" value="Crawford Currie http://c-dot.co.uk"}%
+%META:FIELD{name="Version" attributes="" title="Version" value="%$VERSION%"}%
+%META:FIELD{name="Release" attributes="" title="Release" value="%$RELEASE%"}%
+%META:FIELD{name="Copyright" attributes="" title="Copyright" value="&copy; 2009-2015 Crawford Currie http://c-dot.co.uk"}%
+%META:FIELD{name="License" attributes="" title="License" value="[[http://www.gnu.org/licenses/old-licenses/gpl-2.0.html][GPL2 (Gnu General Public License v2)]]"}%
+%META:FIELD{name="Home" attributes="" title="Home" value="http://foswiki.org/Extensions/WebDAVLinkPlugin"}%
+%META:FIELD{name="Support" attributes="" title="Support" value="http://foswiki.org/bin/view/Support/WebDAVLinkPlugin"}%
+%META:FIELD{name="Repository" attributes="" title="Repository" value="https://github.com/foswiki/WebDAVLinkPlugin"}%
+%META:FIELD{name="ExtensionType" attributes="" title="ExtensionType" value="PluginPackage"}%
+%META:FIELD{name="DemoUrl" attributes="" title="DemoUrl" value="http://"}%
+%META:FIELD{name="SupportUrl" attributes="" title="SupportUrl" value="Support.WebDAVLinkPlugin"}%
+%META:FILEATTACHMENT{name="wikiringlogo20x20.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="icon.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="MacOS-Transmit-connect.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="MacOS-Transmit-filelist.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="MacOS-Transmit-mount.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="WebDAV-custom-level.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="WebDAV-security-settings.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="WebDAV-trusted-sites1.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="WebDAV-trusted-sites2.png" attr="H" date="1281482498" version="1"}%
+%META:FILEATTACHMENT{name="Example.odt" attr="" comment="" date="1381061937" size="11347" version="3"}%
+%META:FILEATTACHMENT{name="Example.docx" date="1381060431" path="Example.docx" version="1"}%
