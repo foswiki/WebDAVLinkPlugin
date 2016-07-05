@@ -41,12 +41,13 @@ var webdavlink = {
         var appList = this.defaultExec;
         try {
 	    var prefs = Components.classes['@mozilla.org/preferences-service;1']
-		.getService(Components.interfaces.nsIPrefService);
-            appList = prefs.getCharPref('extensions.webdavlink.apps');
+		.getService(Components.interfaces.nsIPrefService)
+                .getBranch("extensions.webdavlink");
+            appList = prefs.getCharPref('apps');
 	    // while we have prefs in hand.....
-	    this.debug = prefs.getBoolPref("extensions.webdavlink.debug");
+	    this.debug = prefs.getBoolPref("debug");
         } catch (e) {
-	    this.report("extensions.webdavlink.apps preference missing");
+	    this.report("extensions.webdavlink preferences missing");
         }
         var apps = appList.split(';');
         for (var i in apps) {
