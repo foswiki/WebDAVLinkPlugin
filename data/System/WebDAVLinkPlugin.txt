@@ -79,10 +79,7 @@ In the Internet Explorer menu bar:
    * OK the "Internet Options" dialog
 
 ---+++ Configuring Firefox
-Most Firefox versions up to 5.0 have been tested.
-
-Install the firefox plugin by clicking this link:
-%PUBURL%/%WEB%/%TOPIC%/firefox/webdavlink.xpi
+Install the firefox plugin from the Mozilla Add-Ons.
 
 Use the extension preferences to tell the extension what program
 to use to open Web<nop>DAV links.
@@ -91,7 +88,7 @@ If you have configured the plugin correctly you should see the edit features
 in the table of attachments to this topic.
 
 ---++++ Firefox Developer Note
-Recent versions of Firefox now require extensions to be signed, and if you rebuild the extension you will have to sign it (a signed version of the latest code is always uploaded to the Foswiki webswite). If you want to roll your own, the process for signing is straightforward, see https://wiki.mozilla.org/Add-ons/Extension_Signing
+Recent versions of Firefox now require extensions to be signed, and if you rebuild the extension you will have to sign it (a signed version of the latest code is kept in the Mozilla Add-ons site). If you want to roll your own, the process for signing an unlisted extension is straightforward, see https://wiki.mozilla.org/Add-ons/Extension_Signing
 
 ---+++ Running Web<nop>DAV on on Mac OS X
 The native client of Mac OS X is a bit crippled, but with a decent Web<nop>DAV client it works very well. For example Transmit (http://www.panic.com/transmit/) or Interarchy (http://nolobe.com/interarchy/) will provide easy access to Web<nop>DAV store on Foswiki for users. Both clients allow secure Web<nop>DAV over https transfers. Its possible to connect to your Wiki like a network drive and make it available within your Finder. For example Transmit has a feature called "Transmit Disk" which enables mounting of Web<nop>DAV shares.
