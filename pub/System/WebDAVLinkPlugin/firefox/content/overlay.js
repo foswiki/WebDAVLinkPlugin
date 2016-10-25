@@ -42,7 +42,7 @@ var webdavlink = {
         try {
 	    var prefs = Components.classes['@mozilla.org/preferences-service;1']
 		.getService(Components.interfaces.nsIPrefService)
-                .getBranch("extensions.webdavlink");
+                .getBranch("extensions.webdavlink.");
             appList = prefs.getCharPref('apps');
 	    // while we have prefs in hand.....
 	    this.debug = prefs.getBoolPref("debug");
