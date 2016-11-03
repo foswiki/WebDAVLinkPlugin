@@ -79,7 +79,7 @@ In the Internet Explorer menu bar:
    * OK the "Internet Options" dialog
 
 ---+++ Configuring Firefox
-Install the firefox plugin from the Mozilla Add-Ons.
+Download and install the signed firefox plugin from the Foswiki site: https://foswiki.org/pub/Extensions/WebDAVLinkPlugin/webdavlink-%$VERSION%-fx.xpi=
 
 Use the extension preferences to tell the extension what program
 to use to open Web<nop>DAV links.

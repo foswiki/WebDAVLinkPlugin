@@ -10,8 +10,10 @@ use JSON ();
 use Foswiki       ();
 use Foswiki::Func ();
 
-our $VERSION = '1.7.0';
-our $RELEASE = '10 May 2015';
+# If you update the version number don't forget to update the version of the
+# Firefox extension in pub/System/WebDAVLinkPlugin/firefox/install.rdf
+our $VERSION = '1.7';
+our $RELEASE = '11 Nov 2016';
 our $SHORTDESCRIPTION =
   'Automatically open links to !WebDAV resources in local applications';
 our $NO_PREFS_IN_TOPIC = 1;

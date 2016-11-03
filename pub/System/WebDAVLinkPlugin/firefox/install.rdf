@@ -2,12 +2,13 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>webdavlink@foswiki.org</em:id>
+    <em:id>webdavlink.unlisted@foswiki.org</em:id>
     <em:name>WebDAVLink</em:name>
     <em:version>1.7</em:version>
     <em:creator>Crawford Currie</em:creator>
     <em:iconURL>chrome://webdavlink/skin/icon.png</em:iconURL>
     <em:homepageURL>http://foswiki.org/Extensions/WebDAVLinkPlugin</em:homepageURL>
+    <em:updateURL>http://foswiki.org/Extensions/WebDAVLinkPlugin</em:updateURL>
     <em:contributor>Crawford Currie</em:contributor>
     <em:description>Open WebDAV documents using native applications</em:description>
     <em:optionsURL>chrome://webdavlink/content/options.xul</em:optionsURL>
